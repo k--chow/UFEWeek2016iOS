@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Nda-NV-mbW">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--About-->
+        <scene sceneID="Ooz-Wa-XNs">
+            <objects>
+                <viewController id="H0y-nj-yIq" customClass="AboutViewController" customModule="UFE_Week" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cg8-JS-mgV"/>
+                        <viewControllerLayoutGuide type="bottom" id="FKE-ST-dnE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ww4-Ys-8XT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="About" prompt="Engineers' Week 2016" id="id4-rl-Se8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cVV-3q-REA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="512" y="776"/>
+        </scene>
+        <!--Committee-->
+        <scene sceneID="fQ0-WF-1ck">
+            <objects>
+                <viewController id="Fbf-7C-rgB" customClass="CommitteeViewController" customModule="UFE_Week" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qdD-Ed-6DX"/>
+                        <viewControllerLayoutGuide type="bottom" id="4vr-sq-a2I"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JTG-IV-prF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Committee" prompt="Engineers' Week 2016" id="EkR-9V-3dn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="52q-dw-Ush" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1485" y="347"/>
+        </scene>
+        <!--Check-In-->
+        <scene sceneID="De7-fi-W0v">
+            <objects>
+                <viewController id="li5-ag-cwc" customClass="CheckInViewController" customModule="UFE_Week" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ML6-6a-fnQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="bOK-VA-pTu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0VX-3o-SZ5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Check-In" prompt="Engineers' Week 2016" id="7ol-e6-agd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Xo-JW-YW8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1604" y="-294"/>
+        </scene>
+        <!--Events-->
+        <scene sceneID="3Rp-Lb-uVP">
+            <objects>
+                <viewController id="Y3O-l9-re1" customClass="EventsViewController" customModule="UFE_Week" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iVs-5U-wvC"/>
+                        <viewControllerLayoutGuide type="bottom" id="ymQ-Ri-QWs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dYQ-mG-T4O">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Events" prompt="Engineers' Week 2016" id="hqH-eC-Qb3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OAR-8V-P2E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="732" y="-591"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="BIR-FC-mqY">
+            <objects>
+                <tabBarController id="Nda-NV-mbW" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="tUz-y0-won">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="uiJ-5P-fc7" kind="relationship" relationship="viewControllers" id="UCt-Jy-w5h"/>
+                        <segue destination="9UU-An-be3" kind="relationship" relationship="viewControllers" id="LG3-MM-adk"/>
+                        <segue destination="ZwH-2I-Zz8" kind="relationship" relationship="viewControllers" id="bJR-dm-6uO"/>
+                        <segue destination="2eZ-lw-N9K" kind="relationship" relationship="viewControllers" id="gg0-KK-8GU"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LfI-4H-IVZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-338" y="-109"/>
+        </scene>
+        <!--About-->
+        <scene sceneID="N7k-d5-hi7">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2eZ-lw-N9K" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="About" image="about" id="Sge-Yx-Lwz"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NX2-66-mvE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="H0y-nj-yIq" kind="relationship" relationship="rootViewController" id="kza-gl-zPX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5rP-VR-zec" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-6" y="588"/>
+        </scene>
+        <!--Events-->
+        <scene sceneID="5ml-xO-hLS">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uiJ-5P-fc7" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Events" image="events" id="dVw-c7-25H"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="iDz-zP-vVW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y3O-l9-re1" kind="relationship" relationship="rootViewController" id="qN5-6h-KiU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RWH-CK-TUm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="200" y="-591"/>
+        </scene>
+        <!--Check-In-->
+        <scene sceneID="vvP-bM-6JG">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9UU-An-be3" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Check-In" image="checkin" id="neU-GP-re4"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zZc-Xt-9fJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="li5-ag-cwc" kind="relationship" relationship="rootViewController" id="6Hu-qZ-5cU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="thA-le-2Sq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1072" y="-294"/>
+        </scene>
+        <!--Committee-->
+        <scene sceneID="kKR-Oa-JZD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZwH-2I-Zz8" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Committee" image="committee" id="eu5-5G-PzS" userLabel="Item 3"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="TYC-fq-cij">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Fbf-7C-rgB" kind="relationship" relationship="rootViewController" id="R4j-iz-6GS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CQD-uu-77F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="953" y="347"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="about" width="24" height="24"/>
+        <image name="checkin" width="24" height="24"/>
+        <image name="committee" width="24" height="24"/>
+        <image name="events" width="24" height="24"/>
+    </resources>
+</document>
