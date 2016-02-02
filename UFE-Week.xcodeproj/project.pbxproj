@@ -15,6 +15,10 @@
 		3060B8611C583C9500E9EE14 /* CheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3060B8601C583C9500E9EE14 /* CheckInViewController.swift */; };
 		3060B8931C5D2F9000E9EE14 /* CommitteeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3060B8921C5D2F9000E9EE14 /* CommitteeViewController.swift */; };
 		3060B8951C5D2F9A00E9EE14 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3060B8941C5D2F9A00E9EE14 /* AboutViewController.swift */; };
+		3060B8981C5D36B700E9EE14 /* EventsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3060B8971C5D36B700E9EE14 /* EventsViewCell.swift */; };
+		3060B89C1C5D36E100E9EE14 /* DirectorsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3060B89B1C5D36E100E9EE14 /* DirectorsViewCell.swift */; };
+		3060B89F1C5E875C00E9EE14 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3060B89E1C5E875C00E9EE14 /* Event.swift */; };
+		3060B8A11C5E876600E9EE14 /* Director.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3060B8A01C5E876600E9EE14 /* Director.swift */; };
 		F60F672A024C775CBC65AC8D /* Pods_UFE_Week.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099A6C7E5863A0218934DD57 /* Pods_UFE_Week.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +34,10 @@
 		3060B8601C583C9500E9EE14 /* CheckInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInViewController.swift; sourceTree = "<group>"; };
 		3060B8921C5D2F9000E9EE14 /* CommitteeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommitteeViewController.swift; sourceTree = "<group>"; };
 		3060B8941C5D2F9A00E9EE14 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		3060B8971C5D36B700E9EE14 /* EventsViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewCell.swift; sourceTree = "<group>"; };
+		3060B89B1C5D36E100E9EE14 /* DirectorsViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectorsViewCell.swift; sourceTree = "<group>"; };
+		3060B89E1C5E875C00E9EE14 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		3060B8A01C5E876600E9EE14 /* Director.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Director.swift; sourceTree = "<group>"; };
 		674AC4C4F669D721780CE86D /* Pods-UFE-Week.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UFE-Week.release.xcconfig"; path = "Pods/Target Support Files/Pods-UFE-Week/Pods-UFE-Week.release.xcconfig"; sourceTree = "<group>"; };
 		7AAC95AE25FF96D3699E921D /* Pods-UFE-Week.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UFE-Week.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UFE-Week/Pods-UFE-Week.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,6 +84,8 @@
 		3031977D1C4D4B4600F674BA /* UFE-Week */ = {
 			isa = PBXGroup;
 			children = (
+				3060B89D1C5E874F00E9EE14 /* Models */,
+				3060B8961C5D369B00E9EE14 /* Views */,
 				3060B8911C5D2F5900E9EE14 /* View Controllers */,
 				3031977E1C4D4B4600F674BA /* AppDelegate.swift */,
 				303197821C4D4B4700F674BA /* Main.storyboard */,
@@ -95,6 +105,24 @@
 				3060B8941C5D2F9A00E9EE14 /* AboutViewController.swift */,
 			);
 			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		3060B8961C5D369B00E9EE14 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3060B8971C5D36B700E9EE14 /* EventsViewCell.swift */,
+				3060B89B1C5D36E100E9EE14 /* DirectorsViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3060B89D1C5E874F00E9EE14 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3060B89E1C5E875C00E9EE14 /* Event.swift */,
+				3060B8A01C5E876600E9EE14 /* Director.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		AA0D1887D779C7DD66569B25 /* Frameworks */ = {
@@ -227,10 +255,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3060B89F1C5E875C00E9EE14 /* Event.swift in Sources */,
 				3031977F1C4D4B4600F674BA /* AppDelegate.swift in Sources */,
+				3060B8981C5D36B700E9EE14 /* EventsViewCell.swift in Sources */,
+				3060B89C1C5D36E100E9EE14 /* DirectorsViewCell.swift in Sources */,
 				3060B8611C583C9500E9EE14 /* CheckInViewController.swift in Sources */,
 				3060B8931C5D2F9000E9EE14 /* CommitteeViewController.swift in Sources */,
 				3060B8951C5D2F9A00E9EE14 /* AboutViewController.swift in Sources */,
+				3060B8A11C5E876600E9EE14 /* Director.swift in Sources */,
 				3060B85F1C58342E00E9EE14 /* EventsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

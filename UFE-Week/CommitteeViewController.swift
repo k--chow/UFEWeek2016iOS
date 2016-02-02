@@ -8,11 +8,12 @@
 
 import UIKit
 
-class CommitteeViewController: UIViewController {
+class CommitteeViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
+    @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        var directors = [Director]()
         // Do any additional setup after loading the view.
     }
 

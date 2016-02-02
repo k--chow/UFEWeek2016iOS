@@ -10,10 +10,10 @@ import UIKit
 
 class AboutViewController: UIViewController {
 
-    @IBOutlet weak var navBar: UINavigationBar!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationController!.navigationBar.barTintColor = UIColor(red: 0, green: 0.6667, blue: 0.1647, alpha: 1.0)
+        //navigationController!.navigationBar.barTintColor = UIColor(red: 0, green: 0.6667, blue: 0.1647, alpha: 1.0)
 
         // Do any additional setup after loading the view.
     }

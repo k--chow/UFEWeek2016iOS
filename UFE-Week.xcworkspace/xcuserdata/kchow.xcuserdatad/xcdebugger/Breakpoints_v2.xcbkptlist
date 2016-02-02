@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UFE-Week/EventsViewCell.swift"
+            timestampString = "475871224.571858"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "7"
+            endingLineNumber = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UFE_Week.EventsViewCell.init (UFE_Week.EventsViewCell.Type)(style : __C.UITableViewCellStyle, reuseIdentifier : Swift.Optional&lt;Swift.String&gt;) -&gt; UFE_Week.EventsViewCell"
+                  moduleName = "UFE-Week"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kchow/Dropbox/projects/UFE-Week/UFE-Week/EventsViewCell.swift"
+                  timestampString = "476066436.464924"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "58">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UFE_Week.EventsViewCell.init (UFE_Week.EventsViewCell.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;UFE_Week.EventsViewCell&gt;"
+                  moduleName = "UFE-Week"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kchow/Dropbox/projects/UFE-Week/UFE-Week/EventsViewCell.swift"
+                  timestampString = "476066436.465373"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

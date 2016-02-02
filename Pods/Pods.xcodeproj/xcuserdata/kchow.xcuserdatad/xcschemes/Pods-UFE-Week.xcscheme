@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '072FCC37CD67F39995D86AD0'
+               BlueprintIdentifier = '17FFA4492116665625C9D9A9'
                BlueprintName = 'Pods-UFE-Week'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_UFE_Week.framework'>
